@@ -10,10 +10,6 @@ const server = http.createServer(app);
 
 // Middleware
 const allowedOrigins = [
-    'http://localhost:3000',      // React default
-    'http://localhost:5173',      // Vite default
-    'http://localhost:8080',      // Alternative
-    "http://10.40.232.2:5173",           // Alternative
     process.env.FRONTEND_URL
 ];
 
